@@ -36,10 +36,11 @@ const App = () => {
 
 export default App;
 
-Explanation:
+``Explanation:
 
 useState initializes state in functional components.
 count is the state variable, and setCount is the updater function.
+``
 ```
 ```js 02-use-effect/App.js
 import React, { useState, useEffect } from 'react';
