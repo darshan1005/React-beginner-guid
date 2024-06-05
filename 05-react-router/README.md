@@ -140,7 +140,7 @@ export default App;
 ```
 ### Explanation:
 - Dynamic routing uses URL parameters.
---  :userId in the path allows accessing the user ID via match.params.
+- :userId in the path allows accessing the user ID via match.params.
 
 ### 04-protected-routes/App.js
 ```js
