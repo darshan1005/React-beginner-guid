@@ -1,7 +1,3 @@
-
----
-
-## 01-react-fundamentals/README.md
 # React Fundamentals
 
 This section covers the basics of React, including setting up a React project, understanding JSX, and working with components, state, and props.
