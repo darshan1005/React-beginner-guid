@@ -1,8 +1,7 @@
 
 ---
 
-```## 01-react-fundamentals/README.md
-```
+## 01-react-fundamentals/README.md
 # React Fundamentals
 
 This section covers the basics of React, including setting up a React project, understanding JSX, and working with components, state, and props.
@@ -36,6 +35,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 #### ReactDOM.render is used to render the React component into the DOM.
 #### App is a functional component returning JSX to be rendered.
 ```
+```
 ### 02-jsx/App.js
 // 02-jsx/App.js
 import React from 'react';
@@ -51,7 +51,7 @@ export default App;
 
 #### JSX is a syntax extension that looks similar to HTML.
 #### JSX allows embedding JavaScript expressions inside curly braces {}.
-
+```
 ### 03-components/App.js
 // 03-components/App.js
 import React from 'react';
