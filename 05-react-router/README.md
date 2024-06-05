@@ -1,4 +1,3 @@
-## 05-react-router/README.md
 # React Router
 
 React Router is a library for routing in React applications. This section covers basic to advanced routing techniques.
