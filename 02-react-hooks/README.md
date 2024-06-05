@@ -35,11 +35,10 @@ const App = () => {
 };
 
 export default App;
-
-Explanation:
+```
+### Explanation:
 - useState initializes state in functional components.
 - count is the state variable, and setCount is the updater function.
-```
 ### 02-use-effect/App.js
 ```js 
 import React, { useState, useEffect } from 'react';
@@ -60,11 +59,10 @@ const App = () => {
 };
 
 export default App;
-
-Explanation:
+```
+### Explanation:
 - useEffect lets you perform side effects in function components.
 - It runs after the render and can clean up by returning a function.
-```
 ### 03-use-context/App.js
 ```js 
 import React, { useContext, createContext } from 'react';
@@ -85,11 +83,10 @@ const App = () => {
 };
 
 export default App;
-
-Explanation:
+```
+### Explanation:
 - useContext accesses the value of a context.
 - ThemeContext.Provider provides a value to the ThemedComponent.
-```
 ### 04-use-reducer/App.js
 ```js 
 import React, { useReducer } from 'react';
@@ -124,11 +121,10 @@ const App = () => {
 };
 
 export default App;
-
-Explanation:
+```
+### Explanation:
 - useReducer is for more complex state logic.
 - reducer function determines state updates based on action types.
-```
 ### 05-use-memo/App.js
 ```js 
 import React, { useState, useMemo } from 'react';
@@ -168,11 +164,10 @@ const App = () => {
 };
 
 export default App;
-
-Explanation:
+```
+### Explanation:
 - useMemo memoizes the result of a function call, preventing expensive calculations on every render.
 - It recalculates the value only when the dependencies change.
-```
 ### 06-use-callback/App.js
 ```js 
 import React, { useState, useCallback } from 'react';
@@ -198,11 +193,10 @@ const App = () => {
 };
 
 export default App;
-
-Explanation:
+```
+### Explanation:
 - useCallback returns a memoized version of a callback function, preventing unnecessary re-renders of child components.
 - It only changes when the dependencies change.
-```
 ### 07-custom-hooks/useFetch.js
 ```js 
 import { useState, useEffect } from 'react';
@@ -224,11 +218,10 @@ const useFetch = (url) => {
 };
 
 export default useFetch;
-
-Explanation:
+```
+### Explanation:
 - Custom hooks let you reuse stateful logic.
 - useFetch is a custom hook to fetch data from an API.
-```
 ### 08-react-query/App.js
 ```js 
 import React from 'react';
