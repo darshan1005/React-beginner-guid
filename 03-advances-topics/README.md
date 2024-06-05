@@ -3,7 +3,6 @@
 
 ## 03-advanced-topics/README.md
 
-```markdown
 # Advanced Topics
 
 This section covers advanced React concepts such as refs, portals, higher-order components, render props, and error boundaries.
@@ -18,10 +17,9 @@ This section covers advanced React concepts such as refs, portals, higher-order 
 
 ---
 
-### Refs
+### 01-refs/App.js
 
 ```js
-// 01-refs/App.js
 import React, { useRef } from 'react';
 
 const TextInput = () => {
@@ -44,13 +42,13 @@ const App = () => {
 };
 
 export default App;
+```
+### Explanation:
+- useRef creates a reference to a DOM element.
+- inputRef.current gives access to the input element.
 
-Explanation:
-
-useRef creates a reference to a DOM element.
-inputRef.current gives access to the input element.
-
-// 02-portals/App.js
+### 02-portals/App.js
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -73,13 +71,13 @@ const App = () => {
 };
 
 export default App;
+```
+### Explanation:
+- Portals allow rendering children into a different part of the DOM.
+- ReactDOM.createPortal takes children and a DOM node to render into.
 
-Explanation:
-
-Portals allow rendering children into a different part of the DOM.
-ReactDOM.createPortal takes children and a DOM node to render into.
-
-// 03-higher-order-components/App.js
+### 03-higher-order-components/App.js
+```js
 import React from 'react';
 
 const withLogger = (WrappedComponent) => {
@@ -100,13 +98,13 @@ const App = () => {
 };
 
 export default App;
+```
+### Explanation:
+- Higher-Order Components (HOCs) are functions that take a component and return a new component.
+- withLogger logs props and renders the wrapped component.
 
-Explanation:
-
-Higher-Order Components (HOCs) are functions that take a component and return a new component.
-withLogger logs props and renders the wrapped component.
-
-// 04-render-props/App.js
+### 04-render-props/App.js
+```js
 import React from 'react';
 
 class MouseTracker extends React.Component {
@@ -138,13 +136,13 @@ const App = () => {
 };
 
 export default App;
+```
+### Explanation:
+- Render props are a technique for sharing code using a prop whose value is a function.
+- MouseTracker component uses a render prop to expose state.
 
-Explanation:
-
-Render props are a technique for sharing code using a prop whose value is a function.
-MouseTracker component uses a render prop to expose state.
-
-// 05-error-boundaries/App.js
+### 05-error-boundaries/App.js
+```js
 import React, { Component } from 'react';
 
 class ErrorBoundary extends Component {
@@ -180,8 +178,7 @@ const App = () => {
 };
 
 export default App;
-
-Explanation:
-
-Error boundaries catch JavaScript errors in child components and render a fallback UI.
-getDerivedStateFromError and componentDidCatch handle errors.
+```
+### Explanation:
+- Error boundaries catch JavaScript errors in child components and render a fallback UI.
+- getDerivedStateFromError and componentDidCatch handle errors.
