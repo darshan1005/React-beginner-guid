@@ -1,6 +1,3 @@
-
----
-
 ## 05-react-router/README.md
 # React Router
 
