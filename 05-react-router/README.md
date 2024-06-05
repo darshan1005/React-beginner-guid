@@ -2,8 +2,6 @@
 ---
 
 ## 05-react-router/README.md
-
-```markdown
 # React Router
 
 React Router is a library for routing in React applications. This section covers basic to advanced routing techniques.
@@ -43,14 +41,14 @@ const App = () => {
 };
 
 export default App;
+```
+### Explanation:
+- Router wraps the application to enable routing.
+- Link is used for navigation without page reloads.
+- Route specifies components to render based on the path.
 
-Explanation:
-
-Router wraps the application to enable routing.
-Link is used for navigation without page reloads.
-Route specifies components to render based on the path.
-
-// 02-nested-routing/App.js
+### 02-nested-routing/App.js
+```js
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link, useRouteMatch } from 'react-router-dom';
 
@@ -96,13 +94,13 @@ const App = () => {
 };
 
 export default App;
+```
+### Explanation:
+- useRouteMatch gets the current URL and path.
+- Nested Route components render child components based on the matched path.
 
-Explanation:
-
-useRouteMatch gets the current URL and path.
-Nested Route components render child components based on the matched path.
-
-// 03-dynamic-routing/App.js
+### 03-dynamic-routing/App.js
+```js
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
@@ -139,12 +137,13 @@ const App = () => {
 };
 
 export default App;
-Explanation:
+```
+### Explanation:
+- Dynamic routing uses URL parameters.
+** :userId in the path allows accessing the user ID via match.params. **
 
-Dynamic routing uses URL parameters.
-:userId in the path allows accessing the user ID via match.params.
-
-// 04-protected-routes/App.js
+### 04-protected-routes/App.js
+```js
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Link, Redirect } from 'react-router-dom';
 
@@ -225,7 +224,7 @@ const App = () => {
 };
 
 export default App;
-Explanation:
-
-PrivateRoute component checks authentication before rendering protected components.
-Redirects to the login page if not authenticated.
+```
+### Explanation:
+- PrivateRoute component checks authentication before rendering protected components.
+- Redirects to the login page if not authenticated.
