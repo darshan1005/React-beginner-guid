@@ -15,5 +15,5 @@ This repository is designed to teach React from the ground up. It covers everyth
 To get started with this repository, clone it to your local machine:
 
 ```bash
-git clone https://github.com/your-username/react-beginner-guide.git
-cd react-beginner-guide
+git clone https://github.com/darshan1005/React-beginner-guide
+cd React-beginner-guide
