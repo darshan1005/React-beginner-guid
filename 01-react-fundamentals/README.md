@@ -15,11 +15,8 @@ This section covers the basics of React, including setting up a React project, u
 5. [Lifecycle Methods](./05-lifecycle-methods/App.js)
 
 ---
-
-### Hello World
-
+### 01-hello-world/App.js
 ```js
-// 01-hello-world/App.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -33,8 +30,8 @@ Explanation:
 - ReactDOM.render is used to render the React component into the DOM.
 - App is a functional component returning JSX to be rendered.
 ```
+### 02-jsx/App.js
 ```js
-// 02-jsx/App.js
 import React from 'react';
 
 const App = () => {
@@ -66,8 +63,8 @@ Explanation:
 - Components are the building blocks of a React application.
 - Greeting is a functional component receiving props.
 ```
+### 04-state-and-props/App.js
 ```js
-// 04-state-and-props/App.js
 import React, { useState } from 'react';
 
 const Counter = () => {
@@ -91,8 +88,8 @@ Explanation:
 - useState is a Hook that lets you add React state to function components.
 - count is the state variable, and setCount is the function to update it.
 ```
+### 05-lifecycle-methods
 ```js
-// 05-lifecycle-methods
 import React, { Component } from 'react';
 
 class Clock extends Component {
