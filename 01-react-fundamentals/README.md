@@ -19,7 +19,7 @@ This section covers the basics of React, including setting up a React project, u
 ### Hello World
 
 ```js
-### 01-hello-world/App.js
+01-hello-world/App.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -34,8 +34,7 @@ Explanation:
 - App is a functional component returning JSX to be rendered.
 ```
 ```js
-### 02-jsx/App.js
-// 02-jsx/App.js
+02-jsx/App.js
 import React from 'react';
 
 const App = () => {
@@ -45,13 +44,12 @@ const App = () => {
 
 export default App;
 
-### Explanation:
-
-#### JSX is a syntax extension that looks similar to HTML.
-#### JSX allows embedding JavaScript expressions inside curly braces {}.
+Explanation:
+- JSX is a syntax extension that looks similar to HTML.
+- JSX allows embedding JavaScript expressions inside curly braces {}.
 ```
-### 03-components/App.js
-// 03-components/App.js
+```js
+03-components/App.js
 import React from 'react';
 
 const Greeting = (props) => {
@@ -64,13 +62,12 @@ const App = () => {
 
 export default App;
 
-### Explanation:
-
-#### Components are the building blocks of a React application.
-#### Greeting is a functional component receiving props.
-
-### 04-state-and-props/App.js
-// 04-state-and-props/App.js
+Explanation:
+- Components are the building blocks of a React application.
+- Greeting is a functional component receiving props.
+```
+```js
+04-state-and-props/App.js
 import React, { useState } from 'react';
 
 const Counter = () => {
@@ -90,13 +87,12 @@ const App = () => {
 
 export default App;
 
-### Explanation:
-
-#### useState is a Hook that lets you add React state to function components.
-#### count is the state variable, and setCount is the function to update it.
-
-### 05-lifecycle-methods
-// 05-lifecycle-methods/App.js
+Explanation:
+- useState is a Hook that lets you add React state to function components.
+- count is the state variable, and setCount is the function to update it.
+```
+```js
+05-lifecycle-methods
 import React, { Component } from 'react';
 
 class Clock extends Component {
@@ -128,7 +124,7 @@ const App = () => {
 
 export default App;
 
-### Explanation:
-
-#### Class components allow you to use lifecycle methods.
-#### componentDidMount and componentWillUnmount are used to handle side effects such as setting up and clearing intervals.
+Explanation:
+- Class components allow you to use lifecycle methods.
+- componentDidMount and componentWillUnmount are used to handle side effects such as setting up and clearing intervals.
+```
