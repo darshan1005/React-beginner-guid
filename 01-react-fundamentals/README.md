@@ -35,7 +35,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 #### ReactDOM.render is used to render the React component into the DOM.
 #### App is a functional component returning JSX to be rendered.
-
+```
 ### 02-jsx/App.js
 // 02-jsx/App.js
 import React from 'react';
