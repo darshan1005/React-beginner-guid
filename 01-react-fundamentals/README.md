@@ -19,7 +19,7 @@ This section covers the basics of React, including setting up a React project, u
 ### Hello World
 
 ```js
-01-hello-world/App.js
+// 01-hello-world/App.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -34,7 +34,7 @@ Explanation:
 - App is a functional component returning JSX to be rendered.
 ```
 ```js
-02-jsx/App.js
+// 02-jsx/App.js
 import React from 'react';
 
 const App = () => {
@@ -49,7 +49,7 @@ Explanation:
 - JSX allows embedding JavaScript expressions inside curly braces {}.
 ```
 ```js
-03-components/App.js
+// 03-components/App.js
 import React from 'react';
 
 const Greeting = (props) => {
@@ -67,7 +67,7 @@ Explanation:
 - Greeting is a functional component receiving props.
 ```
 ```js
-04-state-and-props/App.js
+// 04-state-and-props/App.js
 import React, { useState } from 'react';
 
 const Counter = () => {
@@ -92,7 +92,7 @@ Explanation:
 - count is the state variable, and setCount is the function to update it.
 ```
 ```js
-05-lifecycle-methods
+// 05-lifecycle-methods
 import React, { Component } from 'react';
 
 class Clock extends Component {
