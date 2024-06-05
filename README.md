@@ -6,7 +6,7 @@ This repository is designed to teach React from the ground up. It covers everyth
 
 1. [React Fundamentals](./01-react-fundamentals/README.md)
 2. [React Hooks](./02-react-hooks/README.md)
-3. [Advanced Topics](./03-advanced-topics/README.md)
+3. [Advanced Topics](./03-advances-topics/README.md)
 4. [React Typescript](./04-react-typescript/README.md)
 5. [React Router](./05-react-router//README.md)
 
