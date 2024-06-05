@@ -26,7 +26,6 @@ const App = () => {
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
-⬇️
 ```
 ### Explanation:
 - ReactDOM.render is used to render the React component into the DOM.
