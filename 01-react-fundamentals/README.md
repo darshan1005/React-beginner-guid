@@ -45,8 +45,8 @@ Explanation:
 - JSX is a syntax extension that looks similar to HTML.
 - JSX allows embedding JavaScript expressions inside curly braces {}.
 ```
+### 03-components/App.js
 ```js
-// 03-components/App.js
 import React from 'react';
 
 const Greeting = (props) => {
