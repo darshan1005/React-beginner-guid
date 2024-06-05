@@ -15,6 +15,11 @@ This section covers the basics of React, including setting up a React project, u
 5. [Lifecycle Methods](./05-lifecycle-methods/App.js)
 
 ---
+---
+### Explanation:
+- ReactDOM.render is used to render the React component into the DOM.
+- App is a functional component returning JSX to be rendered.
+---
 ### 01-hello-world/App.js
 ```js
 import React from 'react';
@@ -26,9 +31,7 @@ const App = () => {
 
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
-### Explanation:
-- ReactDOM.render is used to render the React component into the DOM.
-- App is a functional component returning JSX to be rendered.
+
 ### 02-jsx/App.js
 ```js
 import React from 'react';
