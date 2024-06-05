@@ -1,8 +1,3 @@
-
----
-
-## 03-advanced-topics/README.md
-
 # Advanced Topics
 
 This section covers advanced React concepts such as refs, portals, higher-order components, render props, and error boundaries.
