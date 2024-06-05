@@ -17,8 +17,7 @@ Hooks are functions that let you use state and other React features without writ
 
 ### useState
 
-```js
-// 01-use-state/App.js
+```js 01-use-state/App.js
 import React, { useState } from 'react';
 
 const Counter = () => {
